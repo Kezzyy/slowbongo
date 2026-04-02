@@ -1,0 +1,64 @@
+{
+  "description": "A bongo cat that sits in your bar and slaps when you type.",
+  "settings": {
+    "requirements": "Requirements",
+    "input-devices": "Input Devices",
+    "colours": "Colours",
+    "cat-size": "Cat Size",
+    "vertical-position": "Vertical Position",
+    "size-label": "Size:",
+    "y-offset-label": "Y Offset:",
+    "rave-mode": "Rave Mode",
+    "rave-mode-desc": "Change colors to the beat when music is playing",
+    "tappy-mode": "Tappy Mode",
+    "tappy-mode-desc": "Make the cat tap along to the beat when music is playing",
+    "mpris-filter": "MPRIS Filtering",
+    "mpris-filter-desc": "Only react to audio when a non-blacklisted media player is playing (uses Noctalia Shell audio blacklist)",
+    "evtest-installed": "evtest is installed",
+    "evtest-not-installed": "evtest is not installed",
+    "in-input-group": "User is in the input group",
+    "not-in-input-group": "User is not in the input group",
+    "cava-installed": "cava is installed (for rave mode)",
+    "cava-not-installed": "cava is not installed (rave mode won't work)"
+  },
+  "colors": {
+    "default": "Default",
+    "primary": "Primary",
+    "secondary": "Secondary",
+    "tertiary": "Tertiary"
+  },
+  "toast": {
+    "auto-detect-success": "SlowBongo",
+    "auto-detect-success-desc": "Auto-detected keyboard devices",
+    "auto-detect-failed": "SlowBongo",
+    "auto-detect-failed-desc": "Could not detect keyboard devices. Please configure manually in settings.",
+    "evtest-error": "SlowBongo",
+    "evtest-error-desc": "Keyboard monitoring stopped unexpectedly. Restarting...",
+    "achievement-unlocked": "Achievement Unlocked!"
+  },
+  "stats": {
+    "title": "Statistics",
+    "total": "Total Presses",
+    "session": "This Session",
+    "top-key": "Most Used Key",
+    "heatmap": "Key Heatmap (QWERTZ)",
+    "top-keys": "Top Keys",
+    "facts": "Fun Facts",
+    "backspace-ratio": "Backspace / total:",
+    "space-ratio": "Space / total:",
+    "unique-keys": "Unique keys used:",
+    "restarts": "Plugin restarts:",
+    "no-data": "No data yet – start typing! 🐱"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "filter-all": "All",
+    "filter-locked": "Hide Locked",
+    "filter-show-locked": "Show Locked",
+    "tier-bronze": "Bronze",
+    "tier-silver": "Silver",
+    "tier-gold": "Gold",
+    "tier-platinum": "Platinum",
+    "tier-diamond": "Diamond"
+  }
+}

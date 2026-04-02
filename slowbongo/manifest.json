@@ -1,0 +1,42 @@
+{
+  "id": "slowbongo",
+  "name": "Slow Bongo",
+  "version": "0.8.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "tui",
+  "official": false,
+  "description": "A bongo cat that sits in your bar and slaps when you type. Now with statistics, key heatmap and achievements!",
+  "license": "MIT",
+  "repository": "https://github.com/tui/slowbongo",
+  "tags": [
+    "Bar",
+    "Cute",
+    "Audio",
+    "Fun",
+    "Stats"
+  ],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "settings": "Settings.qml",
+    "statistics": "Statistics.qml",
+    "achievements": "Achievements.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "idleTimeout": 150,
+      "waitingTimeout": 30000,
+      "catColor": "default",
+      "catSize": 1.0,
+      "catOffsetY": 0.0,
+      "raveMode": false,
+      "tappyMode": false,
+      "useMprisFilter": false,
+      "statsData": "",
+      "achData": ""
+    }
+  }
+}
